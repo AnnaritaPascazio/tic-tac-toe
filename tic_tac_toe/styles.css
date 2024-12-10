@@ -5,8 +5,9 @@
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    color: black;
-    background-color: rgb(5, 21, 91);
+    color: white;
+    background-color: rgb(5,21,91);
+    height: 100vh;
 }
 
 .titolo{

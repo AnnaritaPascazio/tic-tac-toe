@@ -8,3 +8,11 @@ function somma()
 }
 somma();*/
 
+let history= [Array(9).fill(null)];
+let currentMove = 0;
+
+console.log('history',history);
+function handleClick(button)
+{
+    console.log('cliccato',button);
+}
