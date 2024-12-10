@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: rgb(5, 21, 91);
+}
+
+.titolo{
+    font-size: 50px;
+}
+
+.square{
+    background-color: rgb(222, 221, 221);
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 250ms ease;
+
+}
+
+.square:hover{
+    background-color: red;
+    transform: scale(0.9);
+}
+
+/*
+.yellow{
+    background-color: yellow;
+} 
+*/
+
+
+.board {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 2px;
+}
