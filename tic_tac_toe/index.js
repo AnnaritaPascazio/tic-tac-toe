@@ -11,7 +11,7 @@ somma();*/
 let history= [Array(9).fill(null)];
 let currentMove = 0;
 let xIsNext = currentMove % 2 == 0;
-let currentSquares = history(currentMove);
+let currentSquares = history[currentMove];
 
 console.log('history',history);
 function handleClick(button)
@@ -21,7 +21,7 @@ function handleClick(button)
     const nextSquares = currentSquares.slice();
     if(xIsNext)
     {
-        nextSquares[button -1 ] = "X";
+        nextSquares[button -1 ] = 'X';
     }else 
     {
         nextSquares[button -1] = '0';
